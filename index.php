@@ -15,8 +15,13 @@
 <div class="row">
     <div class="small-12 topbar columns no-padding">
         <div class="row collapse">
-            <div class="small-12 columns text-right social">Social</div>
+            <div class="small-6 columns text-left"></div>
+            <div class="small-12 columns text-left social"></div>
         </div>
+    </div>
+    <div class="small-12 large-3 columns">
+        <div class="logo"></div>
+        <div class="menu"></div>
     </div>
 </div>
 <script src="js/app.js"></script>
