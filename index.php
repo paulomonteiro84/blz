@@ -30,9 +30,10 @@
             <li>Promoções</li>
             <li>Tratamentos</li>
             <li>Localização</li>
-            
+
         </ul>
     </div>
+    kd
 </div>
 <div class="row">
     <div class="small-12 columns collapse">
