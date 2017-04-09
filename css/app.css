@@ -1,32 +1,29 @@
 * { box-sizing: border-box; }
 
-body { font-family: sans-serif; }
+body { font-family: 'Roboto', sans-serif; }
+
+p,span,h1,h2,h3,h4,h5,h6,ul,li,body{font-family: 'Roboto', sans-serif;}
+
+.topbar{
+    height:70px;
+}
 
 .carousel {
     background: #FAFAFA;
     position: relative;
 }
-
+.carousel img{
+    width:100%;
+}
 .carousel-cell {
     width: 100%;
-    height: 500px;
+    height: auto;
     margin-right: 10px;
     background: #8C8;
     border-radius: 5px;
     counter-increment: carousel-cell;
 }
-.carousel{
-    opacity:0;
-}
 /* cell number */
-.carousel-cell:before {
-    display: block;
-    text-align: center;
-    content: counter(carousel-cell);
-    line-height: 200px;
-    font-size: 80px;
-    color: white;
-}
 /* position dots in carousel */
 .flickity-page-dots {
     bottom: 0;
@@ -50,7 +47,7 @@ body { font-family: sans-serif; }
 .social{
     background-color: #e8eaeb;
     padding:10px;
-    border-bottom:1px solid #a6c1cf;
+    border-bottom:1px solid #dce0e4;
 }
 .no-padding{
     padding:0;
@@ -59,4 +56,14 @@ body { font-family: sans-serif; }
     display:inline-block;
     text-decoration: none;
 
+}
+.center{
+    margin:0 auto;
+}
+.logo{
+    padding:15px 0;
+}
+.full-width{
+    width:100%;
+    max-width: 100%;
 }

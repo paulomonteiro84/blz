@@ -8,21 +8,22 @@
 
     <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="css/slider.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css?v=<?=time()?>">
-
-
     <title>Document</title>
 </head>
 <body>
-<div class="row">
+<div class="row full-width">
     <div class="small-12 topbar columns no-padding social">
-        <div class="row collapse">
+        <div class="row center">
             <div class="small-6 columns text-left">Space</div>
             <div class="small-6 columns text-right">Social</div>
         </div>
     </div>
-    <div class="small-12 large-3 columns text-left">
-        <div class="logo">BODY LASER</div>
+</div>
+<div class="row">
+    <div class="small-12 large-3 columns text-left no-padding">
+        <div class="logo"><img src="http://www.bodylaser.pt/new/hosting/logo-1.png"></div>
     </div>
     <div class="small-12 large-9 columns topnav text-right">
         <ul>
@@ -30,18 +31,15 @@
             <li>Promoções</li>
             <li>Tratamentos</li>
             <li>Localização</li>
-
         </ul>
     </div>
-    kd
 </div>
 <div class="row">
-    <div class="small-12 columns collapse">
+    <div class="small-12 columns no-padding">
         <div class="carousel">
-            <div class="carousel-cell"></div>
-            <div class="carousel-cell"></div>
-            <div class="carousel-cell"></div>
-
+            <div class="carousel-cell"><img src="http://www.bodylaser.pt/new/hosting/laser-diodo-bellissima-lisboa-site.png"></div>
+            <div class="carousel-cell"><img src="http://www.bodylaser.pt/new/hosting/laser-diodo-bellissima-lisboa-site.png"></div>
+            <div class="carousel-cell"><img src="http://www.bodylaser.pt/new/hosting/laser-diodo-bellissima-lisboa-site.png"></div>
         </div>
     </div>
 </div>
