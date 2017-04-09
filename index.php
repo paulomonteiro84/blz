@@ -30,6 +30,7 @@
             <li>Promoções</li>
             <li>Tratamentos</li>
             <li>Localização</li>
+            
         </ul>
     </div>
 </div>
