@@ -1,7 +1,8 @@
-$(document).ready(function(){
+$(window).load(function(){
     $('.carousel').flickity({
         cellSelector: '.carousel-cell',
-        pageDots: true
+        pageDots: true,
+        lazyLoad: true
     });
 
 });

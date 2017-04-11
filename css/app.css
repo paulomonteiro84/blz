@@ -2,7 +2,7 @@
 
 body { font-family: 'Roboto', sans-serif; }
 
-p,span,h1,h2,h3,h4,h5,h6,ul,li,body{font-family: 'Roboto', sans-serif;}
+p,span,h1,h2,h3,h4,h5,h6,ul,li,body{font-family: 'Roboto', sans-serif;font-weight: 300;}
 
 .topbar{
     height:70px;
@@ -49,13 +49,78 @@ p,span,h1,h2,h3,h4,h5,h6,ul,li,body{font-family: 'Roboto', sans-serif;}
     padding:10px;
     border-bottom:1px solid #dce0e4;
 }
+.footer{
+    background-color: #e8eaeb;
+    padding:10px;
+    border-bottom:1px solid #dce0e4;
+}
+#map {
+    height: 400px;
+    width: 100%;
+}
 .no-padding{
     padding:0;
 }
+.topnav ul{
+    line-height: 66px;
+    padding: 10px 0;
+    margin: 0;
+}
+.divider{
+    font-size: 30px;
+    text-align: center;
+    margin:40px 0;
+    color:#9E9E9E;
+}
+.divider span{
+    border-bottom: 1px solid #9E9E9E;
+}
+.blue-bar {
+    background-color: #008cff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.brands img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    margin: 2%;
+    text-align: center;
+    opacity: 0.6;
+    transition: all 0.5s ease;
+    transform: scale(0.8);
+
+}
+.brands img:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    margin: 2%;
+    text-align: center;
+    opacity: 1;
+    transform: scale(1);
+}
+.blue-bar h4{
+    font-size: 20px;
+    margin: 0;
+}
+.blue-bar span{
+    font-weight: 700;
+    font-size: 30px;
+}
 .topnav ul li{
+    margin-left: 6%;
     display:inline-block;
     text-decoration: none;
+}
+.btn{
 
+    padding: 10px 30px;
+    line-height: normal;
+    border-radius: 50px;
+}
+.blue{
+    background-color: #008cff;
+    color: #fff;
 }
 .center{
     margin:0 auto;
