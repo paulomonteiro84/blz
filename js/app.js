@@ -4,5 +4,4 @@ $(window).load(function(){
         pageDots: true,
         lazyLoad: true
     });
-
 });

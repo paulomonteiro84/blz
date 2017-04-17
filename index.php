@@ -14,12 +14,19 @@
 </head>
 <body>
 <div class="topbar-wrap full-width">
-    <div class="small-12 topbar columns no-padding social">
-        <div class="row center">
-            <div class="small-6 columns text-left">Space</div>
-            <div class="small-6 columns text-right">Social</div>
+
+        <div class="row center topbar social">
+            <div class="small-9 columns text-left">Space</div>
+            <div class="small-3 columns text-right topbar-social">
+                <div class="social-small-label">Siga-nos:</div>
+                <div class="social-small-icons">
+                    <i class="icons facebook-small"></i>
+                    <i class="icons twitter-small"></i>
+                    <i class="icons instagram-small"></i>
+                </div>
+            </div>
         </div>
-    </div>
+
 </div>
 <div class="row">
     <div class="small-12 medium-3 large-3 columns text-left no-padding">
@@ -62,20 +69,20 @@
 
 <div class="full-width blue-bar text-center">
     <div class="row">
-        <div class="small-12 columns">
+        <div class="small-12 columns divider white">
             <span>FAÇA A SUA MARCAÇÃO</span>
         </div>
         <div class="small-4 columns">
             <h4>Telefone</h4>
-            <span>925 271 645</span>
+            <span class="bold">925 271 645</span>
         </div>
         <div class="small-4 columns">
             <h4>Email</h4>
-            <span>geral@bodylaser.pt</span>
+            <span class="bold">geral@bodylaser.pt</span>
         </div>
         <div class="small-4 columns">
             <h4>Online</h4>
-            <span class="btn green">Fazer Marcação</span>
+            <span class="btn green bold">Fazer Marcação</span>
         </div>
     </div>
 </div>
@@ -85,34 +92,50 @@
     <div class="small-12 columns divider">
         <span>OS NOSSOS PARCEIROS PARA O SUCESSO</span>
         <ol>
-        <img class='brands-logo' src="http://bodylaser.pt/new/admin/uploads/image/logos/ulthera_logo-100x41.jpg" />
-        <img class='brands-logo' src="http://bodylaser.pt/new/admin/uploads/image/logos/maxresdefault-100x55.jpg" />
-        <img class='brands-logo' src="http://bodylaser.pt/new/admin/uploads/image/logos/thumb-100x66.jpg" />
-        <img class='brands-logo' src="http://bodylaser.pt/new/admin/uploads/image/logos/4432789_orig-100x50.jpg" />
-        <img class='brands-logo' src="http://bodylaser.pt/new/admin/uploads/image/logos/logo_milesman_trans-100x27.gif" />
-        <img class='brands-logo' src="http://bodylaser.pt/new/admin/uploads/image/logos/mesoestetic-100x25.jpg" />
+            <img class='brands-logo' src="http://bodylaser.pt/new/admin/uploads/image/logos/ulthera_logo-100x41.jpg"/>
+            <img class='brands-logo' src="http://bodylaser.pt/new/admin/uploads/image/logos/maxresdefault-100x55.jpg"/>
+            <img class='brands-logo' src="http://bodylaser.pt/new/admin/uploads/image/logos/thumb-100x66.jpg"/>
+            <img class='brands-logo' src="http://bodylaser.pt/new/admin/uploads/image/logos/4432789_orig-100x50.jpg"/>
+            <img class='brands-logo'
+                 src="http://bodylaser.pt/new/admin/uploads/image/logos/logo_milesman_trans-100x27.gif"/>
+            <img class='brands-logo' src="http://bodylaser.pt/new/admin/uploads/image/logos/mesoestetic-100x25.jpg"/>
         </ol>
     </div>
 </div>
 
 <div class="footer-wrap full-width">
-    <div class="small-12 footer columns no-padding">
-        <div class="row center">
-            <div class="small-4 columns">
-                <b>Localização</b><br>
-                <span>
+    <div class="row center">
+        <div class="small-3 columns">
+            <b>Localização</b><br>
+            <span>
                 Av. Eng. Duarte Pacheco 19 Sala 10<br>
                 1070-100 Lisboa Amoreiras<br>
                 (junto ao “Médico dos Dentes”)
                     </span>
-            </div>
-            <div class="small-4 columns">
-                <b>Newsletter</b><br>
-            <input>
-                <span class="btn blue">Enviar</span>
+        </div>
+        <div class="small-3 columns">
+            <b>Newsletter</b><br>
+            <input class="input">
+            <span class="btn blue">Enviar</span>
+        </div>
+        <div class="small-3 columns">
+            <ul>
+                <li>Home</li>
+                <li>Promoções</li>
+                <li>Tratamentos</li>
+                <li>Localização</li>
+            </ul>
+        </div>
+        <div class="small-3 columns">
+<i class="icons facebook"></i>
+            <i class="icons twitter"></i>
+            <i class="icons instagram"></i>
+        </div>
 
-            </div>
-            <div class="small-4 columns">Redes Sociais</div>
+        <div class="small-12 columns text-center">
+            <hr>
+            <img src="http://www.bodylaser.pt/new/hosting/logo_footer.png" alt="">
+            <span class="legal">Clínica Body Laser © 2017 Silhueta Record. Todos os direitos reservados</span>
         </div>
     </div>
 </div>
@@ -122,7 +145,7 @@
 <script src="js/app.js?v=<?= time() ?>"></script>
 <script>
     function initMap() {
-        var uluru = {lat: 38.723592, lng:  -9.163386};
+        var uluru = {lat: 38.723592, lng: -9.163386};
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 17,
             center: uluru
